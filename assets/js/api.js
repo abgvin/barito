@@ -681,7 +681,7 @@ function getSavedMatches() {
       </p>
       <div class="col s12 m12 l12">
         <div class="card shadow-none">
-          <table class="centered responsive-table">
+          <table class="centered">
             <thead>
               <tr>
                 <th>No.</th>
