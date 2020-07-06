@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+
+* {
+  font-family: 'Oswald',
+    sans-serif;
+}
+
+nav,
+.sidenav {
+  background-color: #272343;
+}
+
+.sidenav {
+  padding-top: 40px;
+  width: 200px;
+}
+
+.sidenav a {
+  color: white !important;
+  font-family: 'Roboto',
+    sans-serif;
+  font-weight: lighter;
+  font-size: 12px !important;
+}
+
+
+
+.team-logo {
+  width: 100px;
+}
+
+
+.card-team {
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  background-color: rgba(39, 35, 67, 0.4);
+}
+
+.card-content {
+  background-color: rgba(39, 35, 67, 0.9);
+
+}
+
+.card-content h3 {
+  font-size: 28px;
+}
+
+.card-content p {
+  font-weight: 300;
+  font-size: 14px;
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+.card-content p a {
+  color: white;
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+.card-content img {
+  max-height: 100px;
+}
+
+.btn {
+  min-width: 100px;
+}
+
+tbody tr td {
+  font-family: 'Roboto',
+    sans-serif;
+  font-size: 14px;
+}
+
+tbody tr td img {
+  max-width: 50px;
+}
+
+
+.card-content span {
+  padding: 10px;
+  font-size: 22px;
+}

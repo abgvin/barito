@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Detail Match</title>
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/images/B.png" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#272343" />
+  <link rel="apple-touch-icon" href="assets/images/apple_icon_192x192.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <section id="nav">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="/#home" class="brand-logo center"><img src="assets/images/logo.png" alt="" /></a>
+          <a class="show-on-medium-and-up" href="#" onclick="back()" style="cursor: 'pointer';">
+            <i class="material-icons">arrow_back</i>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <div id="match-detail" class="container center-align">
+  </div>
+
+  <div class="fixed-action-btn" id="float-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons" id="save">save</i>
+      <i class="large material-icons" id="delete">delete</i>
+    </a>
+  </div>
+
+
+
+
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script src="assets/js/idb.js"></script>
+  <script src="assets/js/db.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/matchdetail.js"></script>
+</body>
+
+</html>
