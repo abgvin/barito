@@ -1,4 +1,4 @@
-const CACHE_NAME = "barito-v2";
+const CACHE_NAME = "barito-v3";
 let urlsToCache = [
   '/',
   '/manifest.json',

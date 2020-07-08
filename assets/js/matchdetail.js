@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let isFromSaved = urlParams.get("saved");
   let btnSave = document.getElementById("save");
   let btnDelete = document.getElementById("delete");
-  let back = document.getElementById("back");
 
   if (isFromSaved) {
     btnSave.style.display = "none";
