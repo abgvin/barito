@@ -1,8 +1,8 @@
-var dbPromised = idb.open("db-madrid", 1, function (upgradeDb) {
-  var articlesObjectStore = upgradeDb.createObjectStore("matches", {
+let dbPromised = idb.open("db-madrid", 1, function (upgradeDb) {
+  let matchesObjectStore = upgradeDb.createObjectStore("matches", {
     keyPath: "id"
   });
-  articlesObjectStore.createIndex("matchday", "matchday", {
+  matchesObjectStore.createIndex("matchday", "matchday", {
     unique: false
   });
 });
