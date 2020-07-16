@@ -12,7 +12,7 @@ function saveForlater(matchList) {
       let tx = db.transaction("matches", "readwrite");
       let store = tx.objectStore("matches");
       console.log(matchList.match);
-      store.add(matchList.match);
+      store.put(matchList.match);
       return tx.complete;
     })
     .then(function () {
