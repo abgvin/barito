@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Load page content
   let page = window.location.hash.substr(1);
-  if (page == "") page = "standing";
+  if (page === "") page = "standing";
   loadPage(page);
 
   function loadPage(page) {
@@ -53,11 +53,11 @@ document.addEventListener("DOMContentLoaded", function () {
           getSquad();
         } else if (page === "match") {
           getMatch();
-        } else if (page == "standing") {
+        } else if (page === "standing") {
           getStanding();
-        } else if (page == "topscorer") {
+        } else if (page === "topscorer") {
           getTopScorer();
-        } else if (page == "saved") {
+        } else if (page === "saved") {
           getSavedMatches();
         }
 
